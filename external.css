@@ -1,0 +1,491 @@
+ body{
+	margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 1500px;
+    margin: auto;
+}
+#first {
+    width: 190px;
+    float: left;
+    height: 1500px;
+}
+
+.TopLeft{
+    width: 190px;
+    height: 200px;
+}
+.logo{
+    width: 150px;
+    height: 31px;
+    margin-top: 21px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Date{
+    font-family: Roboto Slab Regular;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+.WeatherLogo{
+  position: absolute;
+  left: 44px;
+  top: 150px;
+  width: 40px;
+  height: 28px;
+  z-index: 23;
+}
+.WeatherCelsius{
+   font-size: 24px;
+   font-family: "Roboto";
+   color: rgb(51, 51, 51);
+   line-height: 1.2;
+   text-align: center;
+   position: absolute;
+   left: 95.828px;
+   top: 135.1px;
+}
+
+
+.BottomLeft{
+    width: 190px;
+    height: 1300px;
+    background-color: blue;
+}
+.navbar{
+    width: 50px;
+    height: 1300px;
+    background-color: #b1b1b2;
+    float: left;
+}
+.navmenu{
+    width: 140px;
+    height: 1300px;
+    background-color: #dfdfdf;
+    float: left;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+}
+
+.navicon{
+
+    padding: 15px;
+}
+
+.icons{
+    background-color: #b1b1b2;
+    border-bottom: 1px groove black;
+}
+
+table{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 28px;
+}
+th, tr, td{
+    font-family: Roboto Slab Regular;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    text-align: left;
+}
+tr:nth-child(2){
+    color: #c02640;
+}
+
+#selected{
+    background-color: #dfdfdf;
+}
+
+#second {
+    width: 1050px;
+    float: left;
+    height: 1500px;
+    background-color: #f8f8f8;
+}
+#work{
+    margin: 0;
+    margin-left: 31px;
+    margin-top: 53px;
+    font-size: 10px;
+    font-family: "Roboto Slab";
+}
+#rightnow{
+    margin: 0;
+    margin-left: 31px;
+    font-size: 18px;
+    font-family: "Roboto Slab";
+}
+#gearicon{
+    position: absolute;
+    left: 1180px;
+    top: 54px;
+    width: 30px;
+    height: 30px;
+}
+
+hr{
+    margin: 0;
+    margin-top: 17px;
+}
+.R1{
+    width: 720px;
+    height: 1400px;
+    background-color: #f8f8f8;
+    float: left;
+}
+.howdy{
+    width: 658px;
+    height: 268px;
+    background-color: white;
+    margin-top: 31px;
+    margin-left: 32px;
+}
+
+.rose {
+  position: absolute;
+  left: 252px;
+  top: 190px;
+  width: 128px;
+  height: 128px;
+}
+
+#howdypartners {
+  font-size: 48px;
+  font-family: "Roboto Slab Thin";
+  color: rgb(192, 38, 64);
+  position: absolute;
+  margin-top: 42px;
+  margin-left: 209px;
+}
+#subtitle {
+  font-size: 14px;
+  font-family: "Roboto Slab Regular";
+  color: rgb(51, 51, 51);
+  position: absolute;
+  left: 429.812px;
+  top: 228px;
+}
+#notes{
+  font-size: 14px;
+  font-family: "Roboto Slab Regular";
+  color: rgb(51, 51, 51);
+  position: absolute;
+  left: 430.609px;
+  top: 273.024px;
+  width: 403px;
+  height: 64px;
+  text-align: justify;
+}
+
+#spotlight{
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.286;
+  position: absolute;
+  left: 219.344px;
+  top: 436.021px;
+}
+#hr_spotlight {
+  position: absolute;
+  left: 220px;
+  top: 460px;
+  width: 660px;
+  height: 1px;
+}
+
+#sp1{
+  position: absolute;
+  left: 230px;
+  top: 495px;
+  width: 180px;
+  height: 180px;
+}
+#sub_sp1{
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 278.719px;
+  top: 682.623px;
+}
+
+#sp2{
+  position: absolute;
+  left: 460px;
+  top: 495px;
+  width: 180px;
+  height: 180px;
+}
+#sub_sp2{
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 498.344px;
+  top: 682.623px;
+}
+
+#sp3{
+  background-image: url("Layer 297.png");
+  position: absolute;
+  left: 690px;
+  top: 495px;
+  width: 180px;
+  height: 180px;
+  z-index: 72;
+}
+#sub_sp3{
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 720.719px;
+  top: 682.623px;
+  z-index: 71;
+}
+
+#office {
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.286;
+  position: absolute;
+  left: 219.609px;
+  top: 767.998px;
+}
+
+#hr_office {
+  position: absolute;
+  left: 220px;
+  top: 800px;
+  width: 660px;
+  height: 1px;
+}
+
+#off1{
+  position: absolute;
+  left: 240px;
+  top: 832px;
+  width: 120px;
+  height: 120px;
+}
+#sub_off1{
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 255.297px;
+  top: 967.623px;
+}
+#off2{  
+  position: absolute;
+  left: 390px;
+  top: 832px;
+  width: 120px;
+  height: 120px;
+}
+#sub_off2{
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 405.297px;
+  top: 967.623px;
+}
+
+
+
+.R2{
+    width: 330px;
+    height: 1400px;
+    float: left;
+}
+#birthday_red{
+  position: absolute;
+  left: 910px;
+  top: 131px;
+  width: 300px;
+  height: 420px;
+  z-index: 49;
+}
+#jitu{
+  position: absolute;
+  left: 910px;
+  top: 131px;
+  width: 300px;
+  height: 260px;
+  z-index: 50;
+}
+#birthday_cake{
+  position: absolute;
+  left: 1021px;
+  top: 341px;
+  width: 79px;
+  height: 79px;
+  z-index: 53;
+}
+#birthday_ribbon{
+  position: absolute;
+  left: 910px;
+  top: 131px;
+  width: 300px;
+  height: 176px;
+  z-index: 54;
+}
+
+#happy{
+  font-size: 24px;
+  font-family: "Roboto Slab";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 971.172px;
+  top: 439.069px;
+  z-index: 52;
+}
+
+#date{
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1006.516px;
+  top: 482.623px;
+  z-index: 51;
+}
+
+
+#balloons{
+  position: absolute;
+  left: 910px;
+  top: 551px;
+  width: 300px;
+  height: 270px;
+  z-index: 36;
+}
+
+#next{
+  font-size: 12px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 939.672px;
+  top: 578.534px;
+  z-index: 45;
+}
+
+#hr_next{
+  position: absolute;
+  left: 940px;
+  top: 601px;
+  width: 240px;
+  height: 1px;
+  z-index: 44;
+}
+
+#nxt1{
+  position: absolute;
+  left: 940px;
+  top: 630px;
+  width: 70px;
+  height: 70px;
+  z-index: 43;
+}
+#sub_nxt1{
+  font-size: 12px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 943.375px;
+  top: 698.534px;
+  z-index: 42;
+}
+
+
+#nxt2{
+  position: absolute;
+  left: 1025px;
+  top: 630px;
+  width: 70px;
+  height: 70px;
+  z-index: 41;
+}
+#sub_nxt2{
+  font-size: 12px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1028.375px;
+  top: 698.534px;
+  z-index: 40;
+}
+
+
+#nxt3{
+  position: absolute;
+  left: 1110px;
+  top: 630px;
+  width: 70px;
+  height: 70px;
+  z-index: 39;
+}
+#sub_nxt3{
+  font-size: 12px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1114.375px;
+  top: 698.534px;
+  z-index: 38;
+}
+
+#blast{
+  font-size: 24px;
+  font-family: "Roboto Slab";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 939.89px;
+  top: 745.069px;
+  z-index: 37;
+}
+
+
+
